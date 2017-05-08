@@ -1,0 +1,112 @@
+{% extends 'form_div_layout.html.twig' %}
+
+{%- block button_widget -%}
+    {%- if label is empty -%}
+        {%- if label_format is not empty -%}
+            {% set label = label_format|replace({
+                '%name%': name,
+                '%id%': id,
+            }) %}
+        {%- else -%}
+            {% set label = name|humanize %}
+        {%- endif -%}
+    {%- endif -%}
+
+    <button type="{{ type|default('button') }}" {{ block('button_attributes') }}>
+        {% if attr.icon|default %}
+            <i class="material-icons">{{ attr.icon }}</i>
+        {% endif %}
+        {{ translation_domain is same as(false) ? label : label|trans({}, translation_domain) }}
+    </button>
+{%- endblock button_widget -%}
+
+{%- block form_row -%}
+    {% if "checkbox" in block_prefixes %}
+        <div>
+            {{- form_widget(form) -}}
+            {{- form_label(form) -}}
+            {{- form_errors(form) -}}
+        </div>
+    {% else %}
+        <div class="input-field{% if type|default == "file" %} file-field{% endif %}">
+            {{- form_label(form) -}}
+            {{- form_errors(form) -}}
+            {{- form_widget(form) -}}
+        </div>
+    {% endif %}
+{%- endblock form_row -%}
+
+{%- block form_label -%}
+    {% if label is not same as(false) and type|default != 'file' -%}
+        {% set label_attr = label_attr|merge({'class': (label_attr.class|default('') ~ ' active')|trim}) %}
+        {%- if label_attr['data-icon'] |default() %}
+            <i class="material-icons prefix">{{ label_attr['data-icon'] }}</i>
+        {% endif -%}
+        {% if not compound -%}
+            {% set label_attr = label_attr|merge({'for': id}) %}
+        {%- endif -%}
+        {% if required -%}
+            {% set label_attr = label_attr|merge({'class': (label_attr.class|default('') ~ ' required')|trim}) %}
+        {%- endif -%}
+        {% if label is empty -%}
+            {%- if label_format is not empty -%}
+                {% set label = label_format|replace({
+                    '%name%': name,
+                    '%id%': id,
+                }) %}
+            {%- else -%}
+                {% set label = name|humanize %}
+            {%- endif -%}
+        {%- endif -%}
+        <label{% if label_attr %} {% with { attr: label_attr } %}{{ block('attributes') }}{% endwith %}{% endif %}>{{ translation_domain is same as(false) ? label : label|trans({}, translation_domain) }}</label>
+    {%- endif -%}
+{%- endblock form_label -%}
+
+{%- block form_widget_simple -%}
+    {%- set type = type|default('text') -%}
+    {% set attr = attr|merge({'class': (attr.class|default('') ~ ' validate')|trim}) %}
+    <input type="{{ type }}" {{ block('widget_attributes') }} {% if value is not empty %}value="{{ value }}" {% endif %}/>
+{%- endblock form_widget_simple -%}
+
+{%- block file_widget -%}
+    <div class="btn">
+        <span>{{ (label|default("labels.form.file_type"))|trans }}</span>
+        <input type="{{type}}">
+    </div>
+    <div class="file-path-wrapper">
+        {% set attr = attr|merge({'class': (attr.class|default('') ~ ' file-path')|trim}) %}
+        {%- set type = 'file' -%}
+        {{- block('form_widget_simple') -}}
+    </div>
+{%- endblock file_widget -%}
+
+{%- block form_errors -%}
+    {%- if errors|length > 0 -%}
+    <ul>
+        {%- for error in errors -%}
+            <li>{{ error.message }}</li>
+        {%- endfor -%}
+    </ul>
+    {%- endif -%}
+{%- endblock form_errors -%}
+
+{%- block date_widget -%}
+    {%- if widget == 'single_text' -%}
+        {% set type = 'date' %}
+
+        {{ block('form_widget_simple') }}
+    {%- else -%}
+        <div {{ block('widget_container_attributes') }}>
+            {{- date_pattern|replace({
+                '{{ year }}':  form_widget(form.year),
+                '{{ month }}': form_widget(form.month),
+                '{{ day }}':   form_widget(form.day),
+            })|raw -}}
+        </div>
+    {%- endif -%}
+{%- endblock date_widget -%}
+
+{%- block textarea_widget -%}
+	{% set attr = attr|merge({'class': (attr.class|default('') ~ ' materialize-textarea')|trim}) %}
+    <textarea {{ block('widget_attributes') }}>{{ value }}</textarea>
+{%- endblock textarea_widget -%}

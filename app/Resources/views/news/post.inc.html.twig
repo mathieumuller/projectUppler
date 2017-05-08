@@ -1,0 +1,54 @@
+{% set portrait = post.orientation == 'portrait' %}
+
+<div class="row">
+    <div class="col s12">
+        <div class="card {% if portrait %} horizontal {% endif %}" id="news_{{ post.id }}">
+            <div class="card-image">
+                <img src="{{ asset(news_image_target_relative ~ '/' ~ post.image) }}">
+                <div class="card-title col s12">
+                    <span class="left">{{ post.title }}</span>
+                    <span class="right">{{ post.publicationDate|date('d/m/Y') }}</span>
+                </div>
+                {% set count = post.countComments %}
+                {% if count > 0 %}
+                    <span class="new badge left blue activator count-comments"
+                        data-badge-caption="{{ 'app.news.count_comments'|transchoice(count) }}">
+                        {{ count }}
+                    </span>
+                {% endif %}
+
+                {% if is_granted('EDIT_NEWS', post) %}
+                    <a class="btn-floating halfway-fab waves-effect waves-light green"
+                        href="{{ path('edit_news', {id: post.id}) }}">
+                        <i class="material-icons">mode_edit</i>
+                    </a>
+                {% endif %}
+            </div>
+            {% if portrait %}<div class="card-stacked">{% endif %}
+            <div class="card-content">
+                <p>
+                    {{ post.content|trim }}
+                </p>
+                <em class="right">{{ post.author }}</em>
+            </div>
+            <div class="card-action">
+                {% if not post.comments.isEmpty %}
+                    <div id="last_comment_{{ post.id }}">
+                        {% include 'news/comment.inc.html.twig' with {'comment': post.comments.first} %}
+                    </div>
+                {% endif %}
+                <div class="row">
+                    <div class="col s12">
+                        <button class=" btn right activator waves-effect waves-light blue">
+                            Comment
+                        </btn>
+                    </div>
+                </div>
+            </div>
+            {% if portrait %}</div>{% endif %}
+            <div class="card-reveal comments-container">
+                {{ render(controller('AppBundle:News:comments', {'id': post.id})) }}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+app:
+    news:
+        cover: "Image"
+        publish: "Publish"
+        publication_success: "The news has been successfully published"
+        no_news: "No news has been posted yet"
+        count_comments: "{1} comment|]1,Inf[ comments"
+        comments: "Comments"

@@ -1,0 +1,2266 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"comment",
+				"commentType"
+			],
+			[
+				"get_cla",
+				"get_class_methods"
+			],
+			[
+				"Ent",
+				"EntityRepository"
+			],
+			[
+				"getImage",
+				"getImageFile()\tmixed"
+			],
+			[
+				"setIma",
+				"setImageFile($imageFile)\tself"
+			],
+			[
+				"News",
+				"NewsType"
+			],
+			[
+				"New",
+				"NewsInterface"
+			],
+			[
+				"inscrption",
+				"inscriptionType"
+			],
+			[
+				"inscription",
+				"inscriptionType"
+			],
+			[
+				"Inscrip",
+				"inscriptionType"
+			],
+			[
+				"extensi",
+				"extension_upload"
+			],
+			[
+				"refre",
+				"refreshSelectPickerOptions"
+			],
+			[
+				"Auth",
+				"AuthUser"
+			],
+			[
+				"Trial",
+				"TrialRequirements"
+			],
+			[
+				"comp",
+				"computeAge"
+			],
+			[
+				"owner",
+				"checkOwnerAdhesion"
+			],
+			[
+				"has",
+				"hasAREAdhesion"
+			],
+			[
+				"Constant",
+				"ConstantInterface"
+			],
+			[
+				"Axiol",
+				"AxiolabCronTaskBundle"
+			],
+			[
+				"Ajax",
+				"AjaxResponse\tAjaxResponse"
+			],
+			[
+				"STATUS",
+				"STATUS_SUCCESS\tmixed"
+			],
+			[
+				"bool",
+				"boolean"
+			],
+			[
+				"vali",
+				"validationWorkflow"
+			],
+			[
+				"Status",
+				"eventStatusCode"
+			],
+			[
+				"competitionClass",
+				"competitionClassId"
+			],
+			[
+				"Person",
+				"PERSON"
+			],
+			[
+				"entity",
+				"entityType"
+			],
+			[
+				"initi",
+				"initializeFEIRegistrer"
+			],
+			[
+				"feiRe",
+				"feiRegistration"
+			],
+			[
+				"search",
+				"search_pattern"
+			],
+			[
+				"axiolab",
+				"axiolab_bootstrap_select"
+			],
+			[
+				"form",
+				"form_resource"
+			],
+			[
+				"prepen",
+				"prependTwig"
+			],
+			[
+				"required",
+				"requiredQualifications"
+			],
+			[
+				"valida",
+				"validateHorses"
+			],
+			[
+				"Ty",
+				"TYPE_RD\tmixed"
+			],
+			[
+				"T",
+				"TYPE_RS\tmixed"
+			],
+			[
+				"Entry",
+				"EntryManager\tEntryManager"
+			],
+			[
+				"status",
+				"statusPaid"
+			],
+			[
+				"ENTRY_",
+				"ENTRY_STATUS_WAITING"
+			],
+			[
+				"E",
+				"ENTRY_STATUS_PAID"
+			],
+			[
+				"engageur",
+				"engageurHorseEntries"
+			],
+			[
+				"Entr",
+				"EntryManager\tEntryManager"
+			],
+			[
+				"getParameter",
+				"getParameterValueByCode"
+			],
+			[
+				"entry",
+				"entry_criteria"
+			],
+			[
+				"email",
+				"email_modal"
+			],
+			[
+				"gene",
+				"genericModalWrapper"
+			],
+			[
+				"emil",
+				"emails"
+			],
+			[
+				"reload",
+				"reloadEntryList"
+			],
+			[
+				"entry_criteria",
+				"entry_criteria_competition"
+			],
+			[
+				"P",
+				"PROFILE_RS\tmixed"
+			],
+			[
+				"platform",
+				"platform_parameter_manager"
+			],
+			[
+				"Pl",
+				"PlatformParameter"
+			],
+			[
+				"after",
+				"afterReload"
+			],
+			[
+				"event",
+				"eventsTable"
+			],
+			[
+				"admin",
+				"admin-menu"
+			],
+			[
+				"n",
+				"inherit"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"season",
+				"season_manager"
+			],
+			[
+				"competition",
+				"competition_types"
+			],
+			[
+				"Compe",
+				"CompetitionType"
+			],
+			[
+				"competition_type",
+				"competition_type_manager"
+			],
+			[
+				"ROLE",
+				"ROLE_ENTRY_USER"
+			],
+			[
+				"person",
+				"personOptions"
+			],
+			[
+				"paramt",
+				"parameters"
+			],
+			[
+				"upsert",
+				"upsertDefaultParameter"
+			],
+			[
+				"federation",
+				"federationForm"
+			],
+			[
+				"registration",
+				"registration_period_table"
+			],
+			[
+				"Table",
+				"tableSelector"
+			],
+			[
+				"civi",
+				"civilityId"
+			],
+			[
+				"generate",
+				"generateCivilityForms"
+			],
+			[
+				"clubCriteria",
+				"clubCriteriaType"
+			],
+			[
+				"club",
+				"clubDirectory"
+			],
+			[
+				"init",
+				"initClubForm"
+			],
+			[
+				"method",
+				"method_exists"
+			],
+			[
+				"crit",
+				"criteriaId"
+			],
+			[
+				"getCurren",
+				"getCurrencyCode"
+			],
+			[
+				"ths",
+				"thisObject"
+			],
+			[
+				"swi",
+				"switchPeriodAction"
+			],
+			[
+				"re",
+				"registrationForms"
+			],
+			[
+				"registra",
+				"registrationForms"
+			],
+			[
+				"registratio",
+				"registrationPeriods"
+			],
+			[
+				"registrations",
+				"registrationsManager"
+			],
+			[
+				"regist",
+				"registrationsManager"
+			],
+			[
+				"success",
+				"successFlashbag"
+			],
+			[
+				"php",
+				"phpcs"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Resources/views/news/post.inc.html.twig",
+			"settings":
+			{
+				"buffer_size": 1478,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/AppBundle/Controller/NewsController.php",
+			"settings":
+			{
+				"buffer_size": 3191,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Entity/Comment.php",
+			"settings":
+			{
+				"buffer_size": 967,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Uppler/CommentBundle/Form/Type/CommentType.php",
+			"settings":
+			{
+				"buffer_size": 964,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Uppler/CommentBundle/Model/Comment.php",
+			"settings":
+			{
+				"buffer_size": 1579,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/Uppler/CommentBundle/Resources/translations/messages.en.yml",
+			"settings":
+			{
+				"buffer_size": 58,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/config/routing.yml",
+			"settings":
+			{
+				"buffer_size": 92,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/views/base.html.twig",
+			"settings":
+			{
+				"buffer_size": 1798,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Security/Voter/NewsVoter.php",
+			"settings":
+			{
+				"buffer_size": 1128,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/views/security/login.html.twig",
+			"settings":
+			{
+				"buffer_size": 255,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/config/config.yml",
+			"settings":
+			{
+				"buffer_size": 1919,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/views/news/index.html.twig",
+			"settings":
+			{
+				"buffer_size": 662,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Resources/views/news/comments.inc.html.twig",
+			"settings":
+			{
+				"buffer_size": 207,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/config/voters.yml",
+			"settings":
+			{
+				"buffer_size": 155,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/config/security.yml",
+			"settings":
+			{
+				"buffer_size": 999,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Form/Type/LoginType.php",
+			"settings":
+			{
+				"buffer_size": 1678,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Controller/UserController.php",
+			"settings":
+			{
+				"buffer_size": 1099,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Entity/News.php",
+			"settings":
+			{
+				"buffer_size": 3501,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Repository/NewsRepository.php",
+			"settings":
+			{
+				"buffer_size": 126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/AppBundle/Resources/config/doctrine/mapping/News.orm.yml",
+			"settings":
+			{
+				"buffer_size": 534,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				" remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 703.0
+	},
+	"console":
+	{
+		"height": 192.0,
+		"history":
+		[
+			"clear;",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/config",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources/views",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources/views/news",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Controller",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Entity",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Form",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Resources",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Resources/config",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Resources/config/doctrine",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Resources/config/doctrine/mapping",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Security",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Services/FileUploader",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/Form",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/Form/Type",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/Model",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/Resources",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/Resources/config",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Form",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Form/Type"
+	],
+	"file_history":
+	[
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Controller/BaseController.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Repository/NewsRepository.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/config/services.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/AppBundle.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Entity/News.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Resources/config/doctrine/mapping/News.orm.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources/views/news/index.html.twig",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/config/config.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources/views/form/form_materialize_layout.html.twig",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/config/security.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Resources/translations/messages.en.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/config/parameters.yml.dist",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Form/Extension/NewsTypeExtension.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/config/parameters.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Services/FileUploader/FileUploader.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Resources/config/services.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/DependencyInjection/Configuration.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/DependencyInjection/AppExtension.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Services/EntityManager/EntityManagerInterface.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Services/EntityManager/EntityManager.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Services/EntityManager/NewsManager.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/DependencyInjection/Compiler/FileUploaderPass.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Services/FileUploader/FileUploaderInterface.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/File/UploadedFile.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources/views/base.html.twig",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Resources/translations/messages.en.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources/views/news/edit.html.twig",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources/translations/messages.en.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Form/Type/NewsType.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Resources/config/translations/messages.en.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Model/News.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/DependencyInjection/UpplerNewsExtension.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Resources/config/services.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Loader/YamlFileLoader.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/.gitignore",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/bower.json",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/DependencyInjection/UpplerCommentExtension.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/config/routing.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Entity/Comment.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Command/TestCommand.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Resources/config/doctrine/mapping/Comment.orm.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/Resources/config/doctrine/model/Comment.orm.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/config/doctrine.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/Model/CommentInterface.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/Model/Comment.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/CommentBundle/UpplerCommentBundle.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/AppKernel.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Resources/config/routing.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/AppBundle/Controller/NewsController.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/UpplerNewsBundle.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Model/NewsInterface.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/src/Uppler/NewsBundle/Resources/config/doctrine/model/News.orm.yml",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/sftp-config.json",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/composer.lock",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/composer.json",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/web/app_dev.php",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/web/assets/app/js/app.js",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/app/Resources/views/default/index.html.twig",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/.bowerrc",
+		"/C/Users/Mathi/Programmation/myProjects/projectUppler/entretien.local.conf",
+		"/C/Users/Mathi/Programmation/www/rocsann/app/config/parameters.yml.dist",
+		"/C/Users/Mathi/Programmation/www/rocsann/web/app_dev.php",
+		"/C/Users/Mathi/Programmation/www/rocsann/app/Resources/views/home/index.html.twig",
+		"/C/Users/Mathi/Programmation/www/rocsann/src/AppBundle/Controller/HomeController.php",
+		"/C/Users/Mathi/Programmation/www/rocsann/src/AppBundle/Entity/Creation.php",
+		"/C/Users/Mathi/Programmation/www/rocsann/app/Resources/views/home/carousel.html.twig",
+		"/C/Users/Mathi/Programmation/www/rocsann/src/AppBundle/Command/UpdateDatabaseCommand.php",
+		"/C/Users/Mathi/Programmation/www/rocsann/app/config/config_dev.yml",
+		"/C/Users/Mathi/Programmation/www/rocsann/composer.lock",
+		"/C/Users/Mathi/Programmation/www/rocsann/.gitignore",
+		"/C/Users/Mathi/Programmation/www/rocsann/sftp-config.json",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CoreBundle/Menu/GlobalMenuBuilder.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/app/Resources/views/base.html.twig",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CoreBundle/Helper/CoreHelper.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/app/config/parameters.yml",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/EngagementBundle/Model/TrialRequirements.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CompteBundle/Controller/Admin/ParametersController.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CompteBundle/Resources/views/admin/modeles/modele_operation_liste.html.twig",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/web/js/main.js",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/web/js/class/Datepicker.js",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CoreBundle/EntityManager/OperationManager.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CoreBundle/Entity/Concours.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/EngagementBundle/Resources/public/js/app/contest.js",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/app/config/parameters.yml.pint",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/AuthBundle/Resources/config/services.yml",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/app/config/config.yml",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CoreBundle/DependencyInjection/Configuration.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/app/config/routing.yml",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CoreBundle/Controller/MainController.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CompteBundle/Controller/BaseController.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/MediaBundle/Entity/Views/MediaSearch.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/MediaBundle/Form/Type/HorsesMediaListCriteriaType.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/EngagementBundle/Form/Type/EntryType.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/EngagementBundle/Resources/views/entry_recap.inc.html.twig",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/CompteBundle/Menu/MenuBuilder.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/EngagementBundle/Menu/MenuBuilder.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/concours/symfony/src/AuthBundle/Menu/GlobalMenuBuilder.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/sftp-config.json",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Entity/Cheval.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Model/TrialRequirements.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Resources/config/services.yml",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Controller/EntryController.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Resources/public/js/Entry.js",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Resources/translations/messages.fr.yml",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/app/config/parameters.yml",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/app/Resources/views/base.html.twig",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/app/Resources/views/form/custom_theme.html.twig",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Form/Type/EntryType.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Resources/views/entry_horse_label.inc.html.twig",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Resources/views/entry_horses_list.inc.html.twig",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/web/css/styles.css",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Resources/views/entry_form_layout.html.twig",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Entity/Concours.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/AppBundle/Form/Extension/EntityTypeExtension.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Entity/Proprietaire.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Entity/ProprietaireCheval.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Entity/Person.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Entity/Compte.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Entity/Adhesion.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Twig/EntryExtension.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/EntryBundle/Helper/Tools.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Helper/Constant/ConstantEntryInterface.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/shf/core-bundle/Helper/Constant/ConstantInterface.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/app/config/services.yml",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/src/AppBundle/Twig/SiteExtension.php",
+		"/C/Users/Mathi/Programmation/Axiocode/shf/calendrier/symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/DependencyInjection/TwigExtension.php",
+		"/C/Users/Mathi/Desktop/ssh/id_rsa",
+		"/D/Téléchargements/tapisdesellero.sql"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"C:\\Users\\Mathi\\Programmation\\myProjects\\RocsAnnLocal",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\shf",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\shf\\concours\\symfony",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\shf\\concours\\symfony\\src",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\shf\\concours\\symfony\\src\\MediaBundle",
+			"C:\\Users\\Mathi\\OneDrive\\Documents\\save_rocsann\\RocsAnnLocal",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\AxiolabCronTaskBundle\\Command",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\AjaxBundle",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\config\\validation",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\public",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\public\\js",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\views",
+			"C:\\Users\\Mathi\\Programmation\\myProjects\\aspm-volley\\aspm-volley_api\\src\\AppBundle\\Entity",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Controller",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony",
+			"C:\\Users\\Mathi\\Programmation\\myProjects\\ASPM\\src\\AppBundle\\Form\\Admin",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Controller",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\views",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\views\\business",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\views",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\DQL",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Command",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\views\\rankings",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\Bundle\\RankingsBundle\\Resources\\views",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\views\\entry",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\app\\DoctrineMigrations",
+			"C:\\Users\\Mathi\\Programmation\\myProjects\\ASPM\\web\\js",
+			"C:\\Users\\Mathi\\Programmation\\myProjects\\ASPM",
+			"C:\\Users\\Mathi\\Programmation\\myProjects\\ASPM\\src\\AppBundle\\Controller\\Admin",
+			"C:\\Users\\Mathi\\Programmation\\myProjects\\ASPM\\src\\AppBundle",
+			"C:\\Users\\Mathi\\Programmation\\myProjects\\ASPM",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\common",
+			"C:\\Users\\Mathi\\Programmation\\Axiocode\\nf-platform\\symfony\\src\\FEI\\AppBundle"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"]))",
+			"VIEW",
+			"$post",
+			"Post",
+			"btn btn-success right",
+			"p",
+			"$$fileUploader",
+			"fileLoader",
+			"file_upload_manager",
+			"_manager",
+			"er_chain",
+			"file_uploader",
+			"btn",
+			"addDoctrineMapping",
+			"\\",
+			"News",
+			"private function _s",
+			"type",
+			"News",
+			"array(",
+			"_set",
+			"default/index",
+			"node_modules",
+			"savaAvatar",
+			"span",
+			"ACTIVATE",
+			"self",
+			"post",
+			"canView",
+			"renderer",
+			"perm_identity",
+			"attr",
+			"div",
+			"label_attr",
+			"user.",
+			"address2",
+			"lastname",
+			"firstname",
+			"array(",
+			"authentication",
+			"auformat",
+			"@gmail.com",
+			"205",
+			":205",
+			"buildLibelle",
+			"setDateRange",
+			"getDateObjectFromString",
+			"replaceSelectPicker",
+			"refreshSelectPickerOptions",
+			"entityDeletable",
+			"duplicatePrototype",
+			"appendPrototype",
+			"showHideCompanyFields",
+			"changeLabel",
+			"popoverInit",
+			"tooltipHide",
+			"tooltipInit",
+			"espace_perso",
+			"modulesPrefixes",
+			"marketRefUrl",
+			"global",
+			"modules_prefixes.",
+			"engagements",
+			"hostMatchCurrentHost",
+			"urlMatchCurrentUrl",
+			"hostMatchCurrentHost",
+			"urlMatchCurrentUrl",
+			"global",
+			"Shf\\CoreBundle",
+			"ShfCoreBundle",
+			"getEntriesStatus",
+			"span",
+			"cheval-engage",
+			"template",
+			"$(\"#horses_list\")",
+			"trial",
+			" detail-cheval",
+			"sireOwners",
+			"tokenStorage",
+			"translator",
+			"trial",
+			"shf",
+			"$trial",
+			"templating",
+			"detail",
+			"dateStringFormat",
+			"compute",
+			"TrialSectionEntity",
+			"Repository",
+			"horse",
+			"ANR",
+			"&",
+			"&Aring;“",
+			"&",
+			"&Atilde;&cent;",
+			"&Atilde;",
+			"&Atilde;&macr;",
+			"&lt;br&gt;",
+			"&quot;",
+			"&acirc;‚&not;",
+			"&Atilde;&laquo;",
+			"&Atilde;&raquo;",
+			"&Atilde;&sect;",
+			"&Acirc;&deg;",
+			"&Atilde;&reg;",
+			"&Atilde;&frac14;",
+			"&Atilde;&acute;",
+			"\\\\&quot;",
+			"&quot;",
+			"&Atilde;&ordf;",
+			"&Atilde;&nbsp;",
+			"&Atilde;&copy;",
+			"&Atilde;&uml;",
+			"&Atilde;&copy;",
+			"smtp_use_tls",
+			"smtp_sasl_security_options",
+			"smtp_sasl_password_maps",
+			"smtp_sasl_auth_enable",
+			"MAILER",
+			"mail(",
+			"mail",
+			"primary",
+			"row",
+			"my-app",
+			"Hero",
+			"hero",
+			"Hero",
+			"heroes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CoreBundle",
+			"œ",
+			"â",
+			"ï",
+			"<br>",
+			"\\'",
+			"€",
+			"ë",
+			"û",
+			"ç",
+			"°",
+			"î",
+			"ä",
+			"ô",
+			"\\'",
+			"'",
+			"ê",
+			"à",
+			"é",
+			"è",
+			"AxiolabCronTaskParent",
+			"namespace Axiolab\\AjaxBundle",
+			"AppBundle\\Repository\\",
+			"namespace AppBundle\\Form\\Admin;",
+			"",
+			"path('fei_persons_horses_settings')",
+			"entry",
+			"shared",
+			"",
+			"FEI\\AppBundle\\DQL",
+			"FEI\\AppBundle\\Command",
+			"fei.result.result_manager",
+			"fei.ranking.ranking_manager",
+			"FEIAppBundle:rankings:",
+			"rankings",
+			"horse",
+			"shared",
+			"entry",
+			"namespace AppBundle\\Controller\\Admin;\nuse AppBundle\\Controller\\BaseController;",
+			"fei.result.result_manager"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Resources/views/news/post.inc.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1478,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/AppBundle/Controller/NewsController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3094,
+								3094
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1098.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/AppBundle/Entity/Comment.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								180
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/Uppler/CommentBundle/Form/Type/CommentType.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/Uppler/CommentBundle/Model/Comment.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/Uppler/CommentBundle/Resources/translations/messages.en.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 58,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 4
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/config/routing.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								91
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 4
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Resources/views/base.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								935,
+								935
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/AppBundle/Security/Voter/NewsVoter.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								426
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 290.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/Resources/views/security/login.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/config/config.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "app/Resources/views/news/index.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "app/Resources/views/news/comments.inc.html.twig",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								133,
+								133
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Twig/Syntaxes/HTML (Twig).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/config/voters.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 4
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "app/config/security.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/AppBundle/Form/Type/LoginType.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1678,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								721,
+								721
+							],
+							[
+								978,
+								978
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 316.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/AppBundle/Controller/UserController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1099,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/AppBundle/Entity/News.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								181
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "src/AppBundle/Repository/NewsRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "src/AppBundle/Resources/config/doctrine/mapping/News.orm.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 130.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "uppler.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"comments",
+				"app\\Resources\\views\\news\\comments.inc.html.twig"
+			],
+			[
+				"secur",
+				"app\\config\\security.yml"
+			],
+			[
+				"news",
+				"src\\AppBundle\\Entity\\News.php"
+			],
+			[
+				"newsrepo",
+				"src\\AppBundle\\Repository\\NewsRepository.php"
+			],
+			[
+				"fileuploader",
+				"src\\AppBundle\\Services\\FileUploader\\FileUploader.php"
+			],
+			[
+				"index",
+				"app\\Resources\\views\\news\\index.html.twig"
+			],
+			[
+				"security",
+				"app\\config\\security.yml"
+			],
+			[
+				"newstype",
+				"src\\AppBundle\\Form\\Extension\\NewsTypeExtension.php"
+			],
+			[
+				"news.php",
+				"src\\AppBundle\\Entity\\News.php"
+			],
+			[
+				"comment",
+				"src\\AppBundle\\Entity\\Comment.php"
+			],
+			[
+				"comment.orm",
+				"src\\Uppler\\CommentBundle\\Resources\\config\\doctrine\\model\\Comment.orm.yml"
+			],
+			[
+				"userm",
+				"src\\AppBundle\\Entity\\Methods\\UserMethods.php"
+			],
+			[
+				"main",
+				"web\\assets\\app\\css\\main.less"
+			],
+			[
+				"base",
+				"app\\Resources\\views\\base.html.twig"
+			],
+			[
+				"insc",
+				"src\\AppBundle\\Form\\Type\\InscriptionType.php"
+			],
+			[
+				"mess",
+				"app\\Resources\\translations\\messages.fr.yml"
+			],
+			[
+				"user",
+				"src\\AppBundle\\Entity\\User.php"
+			],
+			[
+				"usermet",
+				"src\\AppBundle\\Entity\\Methods\\UserMethods.php"
+			],
+			[
+				"entryservice",
+				"concours\\symfony\\src\\CoreBundle\\Entity\\EntryService.php"
+			],
+			[
+				"timea",
+				"concours\\symfony\\src\\CoreBundle\\Traits\\TimeCreationAwareEntityTrait.php"
+			],
+			[
+				"timeawareentity",
+				"concours\\symfony\\src\\CoreBundle\\Traits\\TimeAwareEntityTrait.php"
+			],
+			[
+				"concours",
+				"concours\\symfony\\src\\CoreBundle\\Entity\\Concours.php"
+			],
+			[
+				"operationmanager",
+				"concours\\symfony\\src\\CoreBundle\\EntityManager\\OperationManager.php"
+			],
+			[
+				"contestjs",
+				"concours\\symfony\\src\\EngagementBundle\\Resources\\public\\js\\app\\contest.js"
+			],
+			[
+				"datepicker",
+				"concours\\symfony\\web\\js\\class\\Datepicker.js"
+			],
+			[
+				"main.js",
+				"concours\\symfony\\web\\js\\main.js"
+			],
+			[
+				"modeleoperationli",
+				"concours\\symfony\\src\\CompteBundle\\Resources\\views\\admin\\modeles\\modele_operation_liste.html.twig"
+			],
+			[
+				"paracontr",
+				"concours\\symfony\\src\\CompteBundle\\Controller\\Admin\\ParametersController.php"
+			],
+			[
+				"trialrequirements",
+				"concours\\symfony\\src\\EngagementBundle\\Model\\TrialRequirements.php"
+			],
+			[
+				"basecontroller",
+				"concours\\symfony\\src\\CompteBundle\\Controller\\BaseController.php"
+			],
+			[
+				"corehelper",
+				"concours\\symfony\\src\\CoreBundle\\Helper\\CoreHelper.php"
+			],
+			[
+				"maincntroller",
+				"concours\\symfony\\src\\CoreBundle\\Controller\\MainController.php"
+			],
+			[
+				"base.html.twig",
+				"concours\\symfony\\app\\Resources\\views\\base.html.twig"
+			],
+			[
+				"entryrecap",
+				"concours\\symfony\\src\\EngagementBundle\\Resources\\views\\entry_recap.inc.html.twig"
+			],
+			[
+				"entrytype",
+				"concours\\symfony\\src\\EngagementBundle\\Form\\Type\\EntryType.php"
+			],
+			[
+				"message.fr",
+				"calendrier\\symfony\\src\\EntryBundle\\Resources\\translations\\messages.fr.yml"
+			],
+			[
+				"style.css",
+				"calendrier\\symfony\\web\\css\\styles.css"
+			],
+			[
+				"style",
+				"calendrier\\symfony\\web\\css\\styles.css"
+			],
+			[
+				"bas.html.twig",
+				"calendrier\\symfony\\app\\Resources\\views\\base.html.twig"
+			],
+			[
+				"custom",
+				"calendrier\\symfony\\app\\Resources\\views\\form\\custom_theme.html.twig"
+			],
+			[
+				"cheval.php",
+				"calendrier\\symfony\\vendor\\shf\\core-bundle\\Entity\\Cheval.php"
+			],
+			[
+				"message",
+				"calendrier\\symfony\\src\\EntryBundle\\Resources\\translations\\messages.fr.yml"
+			],
+			[
+				"entrycontroler",
+				"calendrier\\symfony\\src\\EntryBundle\\Controller\\EntryController.php"
+			],
+			[
+				"service",
+				"calendrier\\symfony\\src\\EntryBundle\\Resources\\config\\services.yml"
+			],
+			[
+				"trial",
+				"calendrier\\symfony\\src\\EntryBundle\\Model\\TrialRequirements.php"
+			],
+			[
+				"entry.inc",
+				"calendrier\\symfony\\src\\EntryBundle\\Resources\\views\\entry_horse_label.inc.html.twig"
+			],
+			[
+				"sftp",
+				"sftp-config.json"
+			],
+			[
+				"entrytyp",
+				"calendrier\\symfony\\src\\EntryBundle\\Form\\Type\\EntryType.php"
+			],
+			[
+				"entryformlayout",
+				"calendrier\\symfony\\src\\EntryBundle\\Resources\\views\\entry_form_layout.html.twig"
+			],
+			[
+				"propcheval",
+				"calendrier\\symfony\\vendor\\shf\\core-bundle\\Entity\\ProprietaireCheval.php"
+			],
+			[
+				"proprietaire",
+				"calendrier\\symfony\\vendor\\shf\\core-bundle\\Entity\\Proprietaire.php"
+			],
+			[
+				"messages.fr",
+				"calendrier\\symfony\\src\\EntryBundle\\Resources\\translations\\messages.fr.yml"
+			],
+			[
+				"tools",
+				"calendrier\\symfony\\src\\EntryBundle\\Helper\\Tools.php"
+			],
+			[
+				"services",
+				"calendrier\\symfony\\app\\config\\services.yml"
+			],
+			[
+				"siteextension",
+				"calendrier\\symfony\\src\\AppBundle\\Twig\\SiteExtension.php"
+			],
+			[
+				"twigextension",
+				"calendrier\\symfony\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle\\DependencyInjection\\TwigExtension.php"
+			],
+			[
+				"adhesion",
+				"calendrier\\symfony\\vendor\\shf\\core-bundle\\Entity\\Adhesion.php"
+			],
+			[
+				"compte",
+				"calendrier\\symfony\\vendor\\shf\\core-bundle\\Entity\\Compte.php"
+			],
+			[
+				"person",
+				"calendrier\\symfony\\vendor\\shf\\core-bundle\\Entity\\Person.php"
+			],
+			[
+				"entryinter",
+				"calendrier\\symfony\\vendor\\shf\\core-bundle\\Helper\\Constant\\ConstantEntryInterface.php"
+			],
+			[
+				"constnat",
+				"calendrier\\symfony\\vendor\\shf\\core-bundle\\Helper\\Constant\\ConstantInterface.php"
+			],
+			[
+				"base.html",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\base.html.twig"
+			],
+			[
+				"javascripts",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\javascripts.html.twig"
+			],
+			[
+				"datepicker.js",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\common\\datepicker.js"
+			],
+			[
+				"services.yml",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\config\\services\\services.yml"
+			],
+			[
+				"menu.html",
+				"ui\\app\\template\\core\\menu.html"
+			],
+			[
+				"proht",
+				"ui\\app\\template\\user\\my_profile.html"
+			],
+			[
+				"apima",
+				"api\\src\\AppBundle\\Manager\\ApiEntityManager.php"
+			],
+			[
+				"apiuserphp",
+				"api\\src\\AppBundle\\Entity\\User.php"
+			],
+			[
+				"config",
+				"api\\app\\config\\config.yml"
+			],
+			[
+				"command",
+				"symfony\\src\\FEI\\AppBundle\\Command\\ComputeRankingsCommand.php"
+			],
+			[
+				"crontask",
+				"symfony\\src\\AxiolabCronTaskBundle\\Entity\\CronTask.php"
+			],
+			[
+				"baserepo",
+				"symfony\\src\\FEI\\AppBundle\\Entity\\Repository\\BaseFEIRepository.php"
+			],
+			[
+				"crontaskrepo",
+				"symfony\\src\\AxiolabCronTaskBundle\\Repository\\CronTaskRepository.php"
+			],
+			[
+				"cronrepo",
+				"symfony\\src\\AxiolabCronTaskBundle\\Repository\\CronTaskRepository.php"
+			],
+			[
+				"crontaskmanager",
+				"symfony\\src\\AxiolabCronTaskBundle\\Manager\\CronTaskManager.php"
+			],
+			[
+				"commandstatu",
+				"symfony\\src\\FEI\\AppBundle\\Command\\CheckEventStatusCommand.php"
+			],
+			[
+				"cret",
+				"symfony\\src\\AxiolabCronTaskBundle\\Command\\CreateCronTaskCommand.php"
+			],
+			[
+				"eventdocument",
+				"symfony\\src\\FEI\\AppBundle\\Entity\\EventDocument.php"
+			],
+			[
+				"editevent",
+				"symfony\\src\\FEI\\AppBundle\\Controller\\Calendar\\EditEventController.php"
+			],
+			[
+				"eventform",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\calendar\\event_form.html.twig"
+			],
+			[
+				"edit_eve",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\calendar\\edit_event.html.twig"
+			],
+			[
+				"eventtyp",
+				"symfony\\src\\FEI\\AppBundle\\Form\\Type\\EventType.php"
+			],
+			[
+				"edithorse",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\horse\\edit_horse.html.twig"
+			],
+			[
+				"horse.html.twig",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\criteriaForm\\horse.html.twig"
+			],
+			[
+				"horsetype",
+				"symfony\\src\\FEI\\AppBundle\\Form\\Type\\HorseType.php"
+			],
+			[
+				"styleshhet",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\stylesheets.html.twig"
+			],
+			[
+				"basehtml",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\base.html.twig"
+			],
+			[
+				"wsperson",
+				"symfony\\src\\FEI\\AppBundle\\Service\\WebService\\WSPerson.php"
+			],
+			[
+				"wshelper",
+				"symfony\\src\\FEI\\AppBundle\\Service\\WebService\\WSHelper.php"
+			],
+			[
+				"personcontroler",
+				"symfony\\src\\FEI\\AppBundle\\Controller\\Person\\PersonController.php"
+			],
+			[
+				"criteria",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\common\\CriteriaTable.js"
+			],
+			[
+				"person.js",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\person\\Person.js"
+			],
+			[
+				"criteriatab",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\common\\CriteriaTable.js"
+			],
+			[
+				"ajaxjs",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\common\\Ajax.js"
+			],
+			[
+				"feicontroller",
+				"symfony\\src\\FEI\\AppBundle\\Controller\\FEIController.php"
+			],
+			[
+				"resulttable",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\result\\result_table_dressage.html.twig"
+			],
+			[
+				"resultta",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\result\\result_table_parent.html.twig"
+			],
+			[
+				"baseresult",
+				"symfony\\src\\FEI\\AppBundle\\MappedSuperClass\\BaseResult.php"
+			],
+			[
+				"resultendur",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\result\\result_table_endurance.html.twig"
+			],
+			[
+				"resulttype",
+				"symfony\\src\\FEI\\AppBundle\\Form\\Type\\ResultType.php"
+			],
+			[
+				"resultcontroller",
+				"symfony\\src\\FEI\\AppBundle\\Controller\\Result\\ResultController.php"
+			],
+			[
+				"competitionresult",
+				"symfony\\src\\FEI\\AppBundle\\Model\\CompetitionResult.php"
+			],
+			[
+				"competitionre",
+				"symfony\\src\\FEI\\AppBundle\\Model\\CompetitionResult.php"
+			],
+			[
+				"messgaes",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\messages_js.html.twig"
+			],
+			[
+				"sharedfr",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\translations\\shared.fr.yml"
+			],
+			[
+				"shared",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\translations\\shared.en.yml"
+			],
+			[
+				"modaljs",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\common\\Modal.js"
+			],
+			[
+				"resultfr",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\translations\\result.fr.yml"
+			],
+			[
+				"resulthandler",
+				"symfony\\src\\FEI\\AppBundle\\Service\\Result\\ResultHandler.php"
+			],
+			[
+				"competvalidator",
+				"symfony\\src\\FEI\\AppBundle\\Validator\\Constraint\\Result\\ValidateCompetitionValidator.php"
+			],
+			[
+				"entrycrittyp",
+				"symfony\\src\\FEI\\AppBundle\\Criteria\\Type\\EntryCriteriaType.php"
+			],
+			[
+				"competresulty",
+				"symfony\\src\\FEI\\AppBundle\\Form\\Type\\CompetitionResultType.php"
+			],
+			[
+				"modal",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\common\\Modal.js"
+			],
+			[
+				"competitiresult",
+				"symfony\\src\\FEI\\AppBundle\\Model\\CompetitionResult.php"
+			],
+			[
+				"restult",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\result\\result_table_parent.html.twig"
+			],
+			[
+				"basecompetitionphp",
+				"symfony\\src\\FEI\\AppBundle\\MappedSuperClass\\BaseCompetition.php"
+			],
+			[
+				"result.yml",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\config\\validation\\result.yml"
+			],
+			[
+				"entrycriteri",
+				"symfony\\src\\FEI\\AppBundle\\Criteria\\Type\\EntryCriteriaType.php"
+			],
+			[
+				"resultjs",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\public\\js\\result\\Result.js"
+			],
+			[
+				"resultmanager",
+				"symfony\\src\\FEI\\AppBundle\\Entity\\Manager\\ResultManager.php"
+			],
+			[
+				"sportcontroler",
+				"symfony\\src\\FEI\\AppBundle\\Controller\\Settings\\SportController.php"
+			],
+			[
+				"defaultdiscipline",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\views\\business\\default-discipline.html.twig"
+			],
+			[
+				"resulten",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\translations\\result.en.yml"
+			],
+			[
+				"entry.fr",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\translations\\entry.fr.yml"
+			],
+			[
+				"entry.en.yml",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\translations\\entry.en.yml"
+			],
+			[
+				"calendaren",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\translations\\calendar.en.yml"
+			],
+			[
+				"calendarfr",
+				"symfony\\src\\FEI\\AppBundle\\Resources\\translations\\calendar.fr.yml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 412.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

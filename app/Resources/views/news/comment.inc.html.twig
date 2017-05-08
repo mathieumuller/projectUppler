@@ -1,0 +1,10 @@
+<div class="row">
+    <div class="col s12">
+        <span class="chip">
+            <img src="/assets/app/images/avatar.png" alt="avatar">
+            {{ comment.author }}
+        </span>
+        <em class='right grey-text'>{{ comment.publicationDate|date('d/m/Y') }}</em>
+        <p>{{ (comment.content|trim)|raw }}</p>
+    </div>
+</div>

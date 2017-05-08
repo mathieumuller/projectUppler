@@ -1,0 +1,13 @@
+AppBundle\Entity\Comment:
+    type: entity
+
+    manyToOne:
+        news:
+            targetEntity: Uppler\NewsBundle\Model\NewsInterface
+            inversedBy: comments
+            joinColumn:
+                name: news_id
+                referencedColumnName: id
+
+    lifecycleCallbacks:
+        prePersist: [incrementNewsCommentsCount, publish]

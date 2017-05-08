@@ -1,0 +1,21 @@
+AppBundle\Entity\News:
+    type: entity
+    repositoryClass: AppBundle\Repository\NewsRepository
+    fields:
+        countComments:
+            type: integer
+        image:
+            type: string
+            length: 255
+        orientation:
+            type: string
+            length: 12
+
+    oneToMany:
+        comments:
+            targetEntity: "\\Uppler\\CommentBundle\\Model\\CommentInterface"
+            mappedBy: news
+            orderBy: { 'publicationDate': 'DESC' }
+
+    lifecycleCallbacks:
+        prePersist: [publish]
