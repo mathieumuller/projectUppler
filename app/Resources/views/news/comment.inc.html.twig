@@ -4,7 +4,7 @@
             <img src="/assets/app/images/avatar.png" alt="avatar">
             {{ comment.author }}
         </span>
-        <em class='right grey-text'>{{ comment.publicationDate|date('d/m/Y') }}</em>
+        <em class='right grey-text'>{{ comment.publicationDate|date('d/m/Y H:i:s') }}</em>
         <p>{{ (comment.content|trim)|raw }}</p>
     </div>
 </div>

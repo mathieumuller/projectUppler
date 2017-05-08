@@ -1,20 +1,11 @@
 {% set portrait = post.orientation == 'portrait' %}
-
 <div class="row">
     <div class="col s12">
         <div class="card {% if portrait %} horizontal {% endif %}" id="news_{{ post.id }}">
             <div class="card-image">
                 <img src="{{ asset(news_image_target_relative ~ '/' ~ post.image) }}">
-                <div class="card-title col s12">
-                    <span class="left">{{ post.title }}</span>
-                    <span class="right">{{ post.publicationDate|date('d/m/Y') }}</span>
-                </div>
-                {% set count = post.countComments %}
-                {% if count > 0 %}
-                    <span class="new badge left blue activator count-comments"
-                        data-badge-caption="{{ 'app.news.count_comments'|transchoice(count) }}">
-                        {{ count }}
-                    </span>
+                {% if not portrait %}
+                    {% include 'news/post_title.inc.html.twig' with {'post': post} only %}
                 {% endif %}
 
                 {% if is_granted('EDIT_NEWS', post) %}
@@ -26,6 +17,9 @@
             </div>
             {% if portrait %}<div class="card-stacked">{% endif %}
             <div class="card-content">
+                {% if portrait %}
+                    {% include 'news/post_title.inc.html.twig' with {'post': post} only %}
+                {% endif %}
                 <p>
                     {{ post.content|trim }}
                 </p>
@@ -40,7 +34,7 @@
                 <div class="row">
                     <div class="col s12">
                         <button class=" btn right activator waves-effect waves-light blue">
-                            Comment
+                            {{'app.news.add_comment'|trans}}
                         </btn>
                     </div>
                 </div>

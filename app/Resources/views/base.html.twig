@@ -26,7 +26,7 @@
                     </div>
                 </nav>
             {% endblock %}
-            {% block page_title %}<h2 class="left">Actualités</h2>{% endblock %}
+            <h2 class="left">{% block page_title %}{{ 'app.news.title'|trans }}{% endblock %}</h2>
         </header>
         <section class="container">
             {% block body %}

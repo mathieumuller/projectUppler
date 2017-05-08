@@ -1,0 +1,13 @@
+{% set count = post.countComments %}
+<div class='row'>
+    <div class="card-title col s12">
+        <span class="left">{{ post.title }}</span>
+        <span class="right">{{ post.publicationDate|date('d/m/Y') }}</span>
+    </div>
+    {% if count > 0 %}
+        <span class="new badge left blue activator count-comments"
+            data-badge-caption="{{ 'app.news.count_comments'|transchoice(count) }}">
+            {{ count }}
+        </span>
+    {% endif %}
+</div>

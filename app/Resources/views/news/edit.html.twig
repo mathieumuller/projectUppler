@@ -1,5 +1,10 @@
 {% extends "base.html.twig" %}
 
+{% set post = form.vars.value %}
+
+{% block page_title %}
+	{{ 'app.news.update'|trans({'%title%': post.title}) }}
+{% endblock %}
 {% block body %}
 	{{ form(form) }}
 {% endblock body %}
