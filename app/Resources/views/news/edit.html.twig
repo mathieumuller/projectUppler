@@ -1,0 +1,11 @@
+{% extends "base.html.twig" %}
+
+{% set post = form.vars.value %}
+
+{% block page_title %}
+	{% set key = post.id|default() ? 'update' : 'create' %}
+	{{ ('app.news.' ~ key)|trans({'%title%': post.title}) }}
+{% endblock %}
+{% block body %}
+	{{ form(form) }}
+{% endblock body %}

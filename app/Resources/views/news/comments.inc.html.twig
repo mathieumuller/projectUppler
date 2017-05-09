@@ -1,0 +1,10 @@
+<span class="card-title grey-text text-darken-4">
+    {{ 'app.news.comments'|trans }}
+    <i class="material-icons right">close</i>
+</span>
+
+{{ form(commentType, {'action': path('news_comments', {'id': post.id})}) }}
+
+{% for comment in post.comments %}
+    {% include 'news/comment.inc.html.twig' with {'comment': comment} only %}
+{% endfor %}

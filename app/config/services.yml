@@ -1,0 +1,8 @@
+parameters:
+    app.form.extension.news.class: "AppBundle\\Form\\Extension\\NewsTypeExtension"
+
+services:
+    app.form.extension.news:
+       class: "%app.form.extension.news.class%"
+       tags:
+            - { name: form.type_extension, extended_type: "Uppler\\NewsBundle\\Form\\Type\\NewsType" }

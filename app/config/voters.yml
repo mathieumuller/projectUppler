@@ -1,0 +1,6 @@
+services:
+    app.post_voter:
+        class:  AppBundle\Security\Voter\NewsVoter
+        tags:
+            - { name: security.voter }
+        public: false

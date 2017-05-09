@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        {% stylesheets
+            'assets/vendor/materialize/dist/css/materialize.min.css'
+         %}
+            <link rel="stylesheet" href="{{ asset_url }}" type="text/css" />
+        {% endstylesheets %}
+    </head>
+    <body>
+        <header class="row indigo accent-1 white-text">
+            {% block menu %}
+                <nav class="nav-extended indigo accent-4 white-text">
+                    <div class="nav-wrapper">
+                        {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                            <span class='right'>{{ app.user.username }}</span>
+                            <a class='left' href="{{ path('logout') }}">Logout</a>
+                        {% else %}
+                            <a class='left' href="{{ path('login') }}">Login</a>
+                        {% endif %}
+                    </div>
+                </nav>
+            {% endblock %}
+            <h2 class="left">{% block page_title %}{{ 'app.news.title'|trans }}{% endblock %}</h2>
+        </header>
+        <section class="container">
+            {% block body %}
+
+            {% endblock %}
+        </section>
+
+        {% javascripts
+            'assets/vendor/jquery/dist/jquery.min.js'
+            'assets/vendor/materialize/dist/js/materialize.min.js'
+            'assets/app/js/app.js'
+         %}
+            <script src="{{ asset_url }}"></script>
+        {% endjavascripts %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
