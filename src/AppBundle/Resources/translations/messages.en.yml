@@ -9,6 +9,7 @@ app:
         title: "Breaking news"
         add_comment: "Add a comment"
         update: "Update %title%"
+        create: "New post"
 
 authentication:
     login: "Login"

@@ -15,20 +15,13 @@
             </div>
         {% endfor %}
     </div>
-    <div class="row">
-        <a class="btn-floating btn-small waves-effect waves-light green right"
-            href="{{ path('edit_news') }}">
-            <i class="material-icons">add</i>
-        </a>
-    </div>
-{% endblock %}
 
-{% block javascripts %}
-    {% if active is not empty %}
-        <script>
-            $(function(){
-                window.location.hash = '#last_comment_{{ active }}';
-            });
-        </script>
+    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+        <div class="row">
+            <a class="btn-floating btn-small waves-effect waves-light green right"
+                href="{{ path('edit_news') }}">
+                <i class="material-icons">add</i>
+            </a>
+        </div>
     {% endif %}
 {% endblock %}

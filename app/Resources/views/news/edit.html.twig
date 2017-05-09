@@ -3,7 +3,8 @@
 {% set post = form.vars.value %}
 
 {% block page_title %}
-	{{ 'app.news.update'|trans({'%title%': post.title}) }}
+	{% set key = post.id|default() ? 'update' : 'create' %}
+	{{ ('app.news.' ~ key)|trans({'%title%': post.title}) }}
 {% endblock %}
 {% block body %}
 	{{ form(form) }}

@@ -15,4 +15,6 @@
 /vendor/
 /web/bundles/
 /uppler.sublime-project
+/uppler.sublime-workspace
 sftp-config.json
+/.phpintel/*

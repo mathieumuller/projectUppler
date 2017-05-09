@@ -21,6 +21,7 @@ class NewsTypeExtension extends AbstractTypeExtension
                 Type\FileType::class,
                 [
                     'label' => 'app.news.cover',
+                    'required' => false,
                 ]
             )
 

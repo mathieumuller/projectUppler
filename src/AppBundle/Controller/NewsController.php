@@ -22,7 +22,6 @@ class NewsController extends BaseController
             'news/index.html.twig',
             [
                 'news' => $this->getRepository('AppBundle:News')->findAll(),
-                'active' => $request->query->get('news'),
             ]
         );
     }
@@ -38,12 +37,9 @@ class NewsController extends BaseController
             $news = new News($this->getUser());
         } else {
             $this->denyAccessUnlessGranted('EDIT_NEWS', $news);
-            if ($filePath = $news->getImage()) {
-                $file = $fileUploader->reloadFileFromPath($filePath);
-                $news->setImageFile($file);
-            }
         }
-        $em = $this->getDoctrine()->getEntityManager();
+
+        $em = $this->getDoctrine()->getManager();
         $form = $this->createForm(NewsType::class, $news, []);
         $form->handleRequest($request);
 

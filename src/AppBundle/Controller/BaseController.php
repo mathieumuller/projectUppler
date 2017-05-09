@@ -9,7 +9,7 @@ class BaseController extends Controller
     protected function getRepository($alias)
     {
         return $this->getDoctrine()
-            ->getEntityManager()
+            ->getManager()
             ->getRepository($alias)
         ;
     }

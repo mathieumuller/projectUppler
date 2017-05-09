@@ -41,7 +41,7 @@ class CommentType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
-            'data_class' => 'Uppler\\CommentBundle\\Model\\CommentInterface',
+            'data_class' => 'Uppler\\CommentBundle\\Model\\Comment',
         ]);
     }
 }

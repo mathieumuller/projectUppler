@@ -58,7 +58,9 @@
                 {% set label = name|humanize %}
             {%- endif -%}
         {%- endif -%}
-        <label{% if label_attr %} {% with { attr: label_attr } %}{{ block('attributes') }}{% endwith %}{% endif %}>{{ translation_domain is same as(false) ? label : label|trans({}, translation_domain) }}</label>
+        <label{% if label_attr %} {% with { attr: label_attr } %}{{ block('attributes') }}{% endwith %}{% endif %}>
+            {{ translation_domain is same as(false) ? label : label|trans({}, translation_domain) }}
+        </label>
     {%- endif -%}
 {%- endblock form_label -%}
 
@@ -69,14 +71,15 @@
 {%- endblock form_widget_simple -%}
 
 {%- block file_widget -%}
-    <div class="btn">
-        <span>{{ (label|default("labels.form.file_type"))|trans }}</span>
-        <input type="{{type}}">
-    </div>
-    <div class="file-path-wrapper">
-        {% set attr = attr|merge({'class': (attr.class|default('') ~ ' file-path')|trim}) %}
-        {%- set type = 'file' -%}
-        {{- block('form_widget_simple') -}}
+    <div class="file-field input-field">
+        <div class="btn">
+            <span>{{ (label|default("labels.form.file_type"))|trans }}</span>
+            <input type="{{type}}">
+        </div>
+        <div class="file-path-wrapper">
+            {% set attr = attr|merge({'class': (attr.class|default('') ~ ' file-path validate')|trim}) %}
+            {{- block('form_widget_simple') -}}
+        </div>
     </div>
 {%- endblock file_widget -%}
 

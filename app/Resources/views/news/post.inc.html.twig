@@ -2,22 +2,24 @@
 <div class="row">
     <div class="col s12">
         <div class="card {% if portrait %} horizontal {% endif %}" id="news_{{ post.id }}">
-            <div class="card-image">
-                <img src="{{ asset(news_image_target_relative ~ '/' ~ post.image) }}">
-                {% if not portrait %}
-                    {% include 'news/post_title.inc.html.twig' with {'post': post} only %}
-                {% endif %}
+            {% if post.image|default %}
+                <div class="card-image">
+                    <img src="{{ asset(news_image_target_relative ~ '/' ~ post.image) }}">
+                    {% if not portrait %}
+                        {% include 'news/post_title.inc.html.twig' with {'post': post} only %}
+                    {% endif %}
 
-                {% if is_granted('EDIT_NEWS', post) %}
-                    <a class="btn-floating halfway-fab waves-effect waves-light green"
-                        href="{{ path('edit_news', {id: post.id}) }}">
-                        <i class="material-icons">mode_edit</i>
-                    </a>
-                {% endif %}
-            </div>
+                    {% if is_granted('EDIT_NEWS', post) %}
+                        <a class="btn-floating halfway-fab waves-effect waves-light green"
+                            href="{{ path('edit_news', {id: post.id}) }}">
+                            <i class="material-icons">mode_edit</i>
+                        </a>
+                    {% endif %}
+                </div>
+            {% endif %}
             {% if portrait %}<div class="card-stacked">{% endif %}
             <div class="card-content">
-                {% if portrait %}
+                {% if portrait or not post.image|default %}
                     {% include 'news/post_title.inc.html.twig' with {'post': post} only %}
                 {% endif %}
                 <p>

@@ -39,7 +39,7 @@ class NewsType extends AbstractType
     public function configureOptions(OptionsResolver $resolver)
     {
         $resolver->setDefaults([
-            'data_class' => 'Uppler\\NewsBundle\\Model\\NewsInterface',
+            'data_class' => 'Uppler\\NewsBundle\\Model\\News',
         ]);
     }
 }
