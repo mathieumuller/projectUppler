@@ -5,7 +5,6 @@ namespace AppBundle\Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Symfony\Component\HttpFoundation\File\File;
 use Uppler\CommentBundle\Model\CommentInterface;
-use Symfony\Component\Security\Core\User\User;
 use Uppler\NewsBundle\Model\News as BaseNews;
 
 class News extends BaseNews
@@ -25,12 +24,8 @@ class News extends BaseNews
     // but used to trnasform the uploaded file into a path
     private $imageFile;
 
-    public function __construct(User $user = null)
+    public function __construct()
     {
-        if (!is_null($user)) {
-            $this->setAuthor($user->getUsername());
-        }
-
         $this->comments = new ArrayCollection();
     }
 

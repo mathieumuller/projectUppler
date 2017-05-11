@@ -33,13 +33,15 @@ class NewsController extends BaseController
     public function editNewsAction(Request $request, NewsInterface $news = null)
     {
         $fileUploader = $this->get('app.file_uploader');
+        $factory = $this->getEntityFactory('AppBundle:News');
         if (is_null($news)) {
-            $news = new News($this->getUser());
+            $news = $factory->createFromArray(
+                ['author' => $this->getUser()->getUsername()]
+            );
         } else {
             $this->denyAccessUnlessGranted('EDIT_NEWS', $news);
         }
 
-        $em = $this->getDoctrine()->getManager();
         $form = $this->createForm(NewsType::class, $news, []);
         $form->handleRequest($request);
 
@@ -51,8 +53,7 @@ class NewsController extends BaseController
                 ;
             }
 
-            $em->persist($news);
-            $em->flush();
+            $factory->save($news);
 
             $this->addFlash('success', $this->get('translator')->trans('app.news.publication_success', []));
 
@@ -73,16 +74,18 @@ class NewsController extends BaseController
      */
     public function commentsAction(Request $request, NewsInterface $news)
     {
-        $newComment = new Comment($this->getUser());
+        $factory = $this->getEntityFactory('AppBundle:Comment');
+        $newComment = $factory->createFromArray(
+            ['author' => $this->getUser()->getUsername()]
+        );
+
         $commentType = $this->createForm(CommentType::class, $newComment, []);
         $commentType->handleRequest($request);
 
         if ($commentType->isSubmitted() && $valid = $commentType->isValid()) {
             $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
-            $em = $this->getDoctrine()->getManager();
             $newComment->setNews($news);
-            $em->persist($newComment);
-            $em->flush();
+            $factory->save($newComment);
 
             return $this->redirectToRoute('homepage', ['news' => $news->getId()]);
         }

@@ -8,6 +8,3 @@ AppBundle\Entity\Comment:
             joinColumn:
                 name: news_id
                 referencedColumnName: id
-
-    lifecycleCallbacks:
-        prePersist: [incrementNewsCommentsCount, publish]

@@ -13,4 +13,8 @@ class BaseController extends Controller
             ->getRepository($alias)
         ;
     }
+    protected function getEntityFactory($alias)
+    {
+        return $this->get('app.entity_factory.factory_collector')->get($alias);
+    }
 }

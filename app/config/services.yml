@@ -1,8 +1,45 @@
 parameters:
+    app.entity_factory.comment.class: "AppBundle\\Services\\EntityFactory\\CommentFactory"
+    app.entity_factory.news.class: "AppBundle\\Services\\EntityFactory\\NewsFactory"
+    app.entity_factory.factory_collector.class: "AppBundle\\Services\\EntityFactory\\EntityFactoryCollector"
+    app.file_uploader.class: "AppBundle\\Services\\FileUploader\\FileUploader"
     app.form.extension.news.class: "AppBundle\\Form\\Extension\\NewsTypeExtension"
+    app.subscriber.comment.class: "AppBundle\\Event\\CommentSubscriber"
 
 services:
     app.form.extension.news:
        class: "%app.form.extension.news.class%"
        tags:
             - { name: form.type_extension, extended_type: "Uppler\\NewsBundle\\Form\\Type\\NewsType" }
+
+    app.file_uploader:
+        class: "%app.file_uploader.class%"
+        arguments:
+            - "%news_image_target_absolute%"
+
+    app.entity_factory.factory_collector:
+        class: "%app.entity_factory.factory_collector.class%"
+
+    app.entity_factory.abstract_factory:
+        abstract: true
+        arguments:
+            - "@doctrine.orm.entity_manager"
+        public: false
+
+    app.entity_factory.comment:
+        class: "%app.entity_factory.comment.class%"
+        parent: "app.entity_factory.abstract_factory"
+        arguments:
+            - "AppBundle:Comment"
+        tags:
+            - { name: app.entity_factory, alias: 'AppBundle:Comment' }
+        public: false
+
+    app.entity_factory.news:
+        class: "%app.entity_factory.news.class%"
+        parent: "app.entity_factory.abstract_factory"
+        arguments:
+            - "AppBundle:News"
+        tags:
+            - { name: app.entity_factory, alias: 'AppBundle:News' }
+        public: false
