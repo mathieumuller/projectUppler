@@ -1,8 +1,0 @@
-parameters:
-    app.file_uploader.class: "AppBundle\\Services\\FileUploader\\FileUploader"
-
-services:
-    app.file_uploader:
-        class: "%app.file_uploader.class%"
-        arguments:
-            - "%news_image_target_absolute%"

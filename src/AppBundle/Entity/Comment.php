@@ -2,7 +2,6 @@
 
 namespace AppBundle\Entity;
 
-use Symfony\Component\Security\Core\User\User;
 use Uppler\CommentBundle\Model\Comment as BaseComment;
 use Uppler\NewsBundle\Model\NewsInterface;
 
@@ -11,13 +10,6 @@ class Comment extends BaseComment
     use \AppBundle\Traits\Publishable;
 
     private $news;
-
-    public function __construct(User $user = null)
-    {
-        if (!is_null($user)) {
-            $this->setAuthor($user->getUsername());
-        }
-    }
 
     /**
      * Gets the value of news.
@@ -48,5 +40,7 @@ class Comment extends BaseComment
         $news = $this->getNews();
         $currentCount = $news->getCountComments();
         $news->setCountComments(++$currentCount);
+
+        return $this;
     }
 }
