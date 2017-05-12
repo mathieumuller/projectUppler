@@ -21,7 +21,7 @@ class NewsController extends BaseController
         return $this->render(
             'news/index.html.twig',
             [
-                'news' => $this->getRepository('AppBundle:News')->findAll(),
+                'news' => $this->getRepository('AppBundle:News')->findBy([], ['publicationDate' => 'desc']),
             ]
         );
     }
@@ -36,7 +36,7 @@ class NewsController extends BaseController
         $factory = $this->getEntityFactory('AppBundle:News');
         if (is_null($news)) {
             $news = $factory->createFromArray(
-                ['author' => $this->getUser()->getUsername()]
+                ['author' => $this->getUsername()]
             );
         } else {
             $this->denyAccessUnlessGranted('EDIT_NEWS', $news);
@@ -76,7 +76,7 @@ class NewsController extends BaseController
     {
         $factory = $this->getEntityFactory('AppBundle:Comment');
         $newComment = $factory->createFromArray(
-            ['author' => $this->getUser()->getUsername()]
+            ['author' => $this->getUsername()]
         );
 
         $commentType = $this->createForm(CommentType::class, $newComment, []);

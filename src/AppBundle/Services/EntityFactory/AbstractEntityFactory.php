@@ -28,6 +28,8 @@ abstract class AbstractEntityFactory
         foreach ($values as $property => $value) {
             if ($accessor->isWritable($entity, $property)) {
                 $accessor->setValue($entity, $property, $value);
+            } else {
+                throw new \Exception("The property $property does not exists or is readOnly");
             }
         }
 
